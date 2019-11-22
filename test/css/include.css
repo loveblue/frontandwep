@@ -1,0 +1,50 @@
+@charset 'utf-8';
+
+#header{
+	width:200px;
+	height:860px;
+	background:yellow;
+	text-align:center;
+	display:inline-block;
+	float:left
+}
+#header h1{
+	padding:20px 0;
+}
+#header h1 a{
+	color:#000;
+}
+#header li{
+	padding:20px 0;
+}
+#header li a{
+	color:#000;
+}
+
+.footer{
+	width:800px;
+	height:150px;
+	background:bisque;
+	float:right;
+	position:relative;
+}
+.footer p{
+	margin-top:100px;
+	margin-left:30px;
+	font-size:14px;
+}
+
+.topBtn{
+	width:50px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	background:#777;
+	position:absolute;
+	right:30px;
+	bottom:30px;
+}
+.topBtn a{
+	color:#fff;
+	display:block;
+}

@@ -1,0 +1,57 @@
+@charset 'utf-8';
+
+
+.mainSlider{
+	width:800px;
+	height:400px;
+	background:red;
+	display:inline-block;
+}
+.mainSlider h2{
+	line-height:400px;
+	text-align:center;
+}
+
+.mainCon01{
+	width:800px;
+	display:inline-block;
+	margin:80px 0;
+	position:relative;
+	text-align:center;
+}
+.mainCon01 li{
+	width:150px;
+	height:150px;
+	line-height:150px;
+	border-radius:50%;
+	background:#333;
+	display:inline-block;
+	margin:0 30px;
+}
+.mainCon01 li a{
+	color:#fff;
+	display:block;
+}
+
+.btn{
+	width:30px;
+	height:100%;
+	position:absolute;
+	top:0;
+}
+
+.leftBtn{
+	background:url(../images/back.png) no-repeat center;
+	background-size:30px;
+	left:30px;
+	text-indent:-9990px;
+}
+
+.rightBtn{
+	background:url(../images/next.png) no-repeat center;
+	background-size:30px;
+	right:30px;
+	text-indent:-9909px;
+}
+
+
